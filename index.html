@@ -6,6 +6,105 @@
     <title>Document</title>
 </head>
 <body>
-    the extreme new project 
+    <pre>
+    HTML (HyperText Markup Language) is the standard language for creating and structuring web pages using tags and elements. It defines how content like text, images, and links appear in a browser.
+
+It is a markup language, not a programming language.
+
+writing the code -> saving the file -> opening the file in a web browser like chrome or safari -> rendering the page (the browser interprets the html code . it processes and arrange content according to the structure defined by html ) -> displaying content (after processing the html code , the browser displays the webpage on your screen )
+
+
+
+There are two main types of HTML editors:
+
+1. Text-Based Editors: It Allow direct coding with features like syntax highlighting and code completion for full control over the webpage structure. Example - Sublime Text, Visual Studio Code, etc.
+
+2. WYSIWYG (What You See Is What You Get) Editors: It Offer a graphical interface to design web pages visually, automatically generating the corresponding HTML code. Example - Adobe Dreamweaver, etc.
+
+HTML heading tags are used to define the hierarchy and structure of content on a webpage.
+<!-- The <p> tag is used to define a paragraph on a webpage. -->
+<!-- The <br> tag is used to insert a line break within text. It does not require a closing tag. -->
+ <!-- The <hr> tag represents a thematic break between sections of content. Browsers typically display it as a horizontal line. The <hr> element separates two related sections of content. It is an empty element and does not require a closing tag. -->
+HTML comments are notes written inside the source code that are not displayed in the browser.
+
+<!-- The <img> tag is used to embed an image in a webpage.
+Unlike elements such as <p> and <h1>, the <img> tag does not have a closing tag.
+Syntax:
+<img src="image.jpg" alt="Description of the image"> -->
+src specifies the location or URL of the image.
+alt provides alternative text describing the image.
+
+<!-- HTML tags are not case-sensitive. For example, <B> and <b> both represent bold text.
+However, it’s a best practice to use lowercase tags for consistency and readability. -->
+
+<!-- HTML Elements without any content i.e., that do not print anything are called Empty elements. Empty HTML elements do not have an ending tag. For instance. <br>, <hr>, <link>, <input> etc are HTML elements. -->
+
+Block-level elements start on a new line, occupy the full available width, stack vertically, and can contain both block-level and inline elements.
+
+Inline elements do not start on a new line, take only the width of their content, and are used within block-level elements to add or style content.
+
+HTML Attributes are special words used within the opening tag of an HTML element. They provide additional information about HTML elements. HTML attributes are used to configure and adjust the element's behaviour, appearance, or functionality in a variety of ways.
+
+Each attribute has a name and a value, formatted as name="value".
+Attributes tell the browser how to render the element or how it should behave during user interactions.
+
+Global Attributes
+These attributes can be used with any HTML element (though their effects might vary based on the element).
+
+
+ <!-- The <p> tag helps divide content into manageable, readable sections. It’s the go-to element for wrapping text in a web page that is meant to be displayed as a distinct paragraph. -->
+
+Logical tags convey the meaning or importance of the text without necessarily altering its visual appearance. These tags help browsers, search engines, and assistive technologies understand the purpose of the text.
+
+<em>: Emphasizes text, typically rendered in italics. It implies that the text carries special importance or requires emphasis.
+<strong>: Marks text as important, often displayed in bold. It implies the content is of strong importance.
+
+HTML charsets define how characters are encoded so that text and symbols display correctly across different devices and browsers.
+
+Character encoding determines how text is represented and interpreted in an HTML document.
+<!-- The <meta> tag with the charset attribute specifies the encoding used by the webpage. -->
+Setting a charset ensures proper rendering of special characters and symbols.
+UTF-8 is the most commonly used charset as it supports multiple languages and symbols.
+
+
+1. ASCII - The American Standard Code for Information Interchange (ANSII) created this character encoding. This character encoding is used in C/C++ programming.
+It has 128 alphanumeric characters consisting of alphabets(A-Z) and (a-z) and some special symbols like + - * / ( ) @ etc.
+
+2. ANSI (Windows-1252)
+American National Standards Institute (ANSI) created character encoding supported 256 characters. It is used as the default character set in Microsoft Windows. 
+
+3. ISO-8859-1
+It is used as the default character set of HTML4 and also supports 256 characters. The International Standards Organization (ISO) defines the standard character sets for different alphabets/languages. It contains numbers, upper and lowercase English letters, and some special characters. 
+
+4. UTF-8
+UTF-8 and UTF-16 standards was developed by Unicode Consortium, because the ISO-8859 character-sets are limited, and not compatible a multilingual environment. It consists all the character and punctuation symbols. 
+
+ascii => 
+0 to 9 -> 48 to 57
+A to Z -> 65 to 90
+a to z -> 97 to 122
+
+<h2>Grocery list</h2>
+    <ul>
+        <li>Bread</li>
+        <li>Eggs</li>
+        <li>Milk</li>
+        <li>Coffee</li>
+    </ul>
+
+
+A URL (Uniform Resource Locator) is the address of a website used by browsers to retrieve content
+A web address follows these syntax rules:
+
+scheme://subdomain.domain:port/path/filename
+
+Scheme: Specifies the protocol used for communication, such as https:// for secure communication or http:// for unsecured communication.
+Subdomain: An optional part (like www, blog, etc.) that helps identify a specific section of the website within the domain.
+Domain: Identifies the website’s primary address, such as example.com, representing its unique location on the Internet.
+Port: Optional and specifies a particular endpoint for communication. Common values are 80 for HTTP and 443 for HTTPS.
+Path: Specifies the directory or location on the server where the resource is stored.
+Filename: Refers to the specific file or resource within the given path.
+</pre>
+
 </body>
 </html>
